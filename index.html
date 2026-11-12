@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gian Luca Bailo · dexmac</title>
+  <meta name="description" content="Gian Luca Bailo (dexmac), Ph.D. in Computer Science, independent researcher and coder: large language models on recycled hardware, fast decision models, robotics and the Commodore 64.">
+  <meta property="og:title" content="Gian Luca Bailo · dexmac">
+  <meta property="og:description" content="Independent researcher and coder. Projects, papers, articles and photography.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>
+    try { const t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#top">~/dexmac</a>
+    <nav>
+      <a href="#projects">Projects</a>
+      <a href="#writing">Writing</a>
+      <a href="#photography">Photography</a>
+      <a href="#links">Links</a>
+      <button class="theme" type="button" aria-label="Switch light or dark theme" title="Light / dark"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor"/></svg></button>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <p class="kicker">Ph.D. · AI research &amp; tools · vintage computing · photography</p>
+      <h1>Gian Luca Bailo</h1>
+      <p class="lead">
+        I run large language models on recycled hardware, study when a fast decision model should stop and think,
+        restore retro computers and still write code for the Commodore 64, these days with AI agents next to me.
+        Away from the keyboard, I photograph the Ligurian coast in natural light.
+      </p>
+      <ul class="pills">
+        <li><a href="https://medium.com/@gianlucabailo">Medium</a></li>
+        <li><a href="https://github.com/dexmac221">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/gianluca-b-59130b169/">LinkedIn</a></li>
+        <li><a href="https://bsky.app/profile/dexmac.bsky.social">Bluesky</a></li>
+        <li><a href="https://x.com/dexmac221">X</a></li>
+        <li><a href="https://www.instagram.com/dexmac221/">Instagram</a></li>
+        <li><a href="https://pixabay.com/users/dexmac-12233086/">Pixabay</a></li>
+        <li><a href="https://huggingface.co/dexmac">Hugging Face</a></li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2><span class="num">01</span> Projects</h2>
+
+      <div class="cards">
+        <article class="card">
+          <header><h3><a href="https://github.com/dexmac221/strata-cluster">strata-cluster</a></h3><span class="lang">C++</span></header>
+          <p>One 125B mixture-of-experts model split across two home PCs over plain gigabit Ethernet. An unofficial, experimental fork of the Strata inference engine.</p>
+          <p class="tags">distributed inference · MoE · Linux</p>
+        </article>
+
+        <article class="card">
+          <header><h3><a href="https://github.com/dexmac221/system-switch">System Switch</a></h3><span class="lang">Python</span></header>
+          <p>When should a fast decision model stop and think? Code and data of the paper: a learned actor plays Doom and hands control to a reasoning vision-language model only when a gate opens.</p>
+          <p class="tags">decision models · VLM · ViZDoom</p>
+        </article>
+
+        <article class="card">
+          <header><h3><a href="https://github.com/dexmac221/C64AIToolChain">C64AIToolChain</a></h3><span class="lang">C · 6510 asm</span></header>
+          <p>AI agents that write, debug and even playtest Commodore 64 assembly games, through a feedback loop with the VICE emulator and Python visual checks.</p>
+          <p class="tags">agents · Commodore 64 · ★ 29</p>
+        </article>
+
+        <article class="card">
+          <header><h3><a href="https://github.com/dexmac221/doomgemma">doomgemma</a></h3><span class="lang">Python</span></header>
+          <p>The Laya System One decision model against Gemma 4 E2B and Gemma 3 270M fine-tuned with LoRA on the same data, in FreeDoom: accuracy, calibration, latency and real games.</p>
+          <p class="tags">LoRA · Gemma · <a href="https://huggingface.co/dexmac/doomgemma-e2b-lora">adapters on HF</a></p>
+        </article>
+
+        <article class="card">
+          <header><h3><a href="https://github.com/dexmac221/InSearchOfAnAuthor">In Search of an Author</a></h3><span class="lang">Python</span></header>
+          <p>A multi-agent system for writing a book together, inspired by Pirandello: the characters are autonomous agents with their own memories and voices.</p>
+          <p class="tags">multi-agent · RAG · literature</p>
+        </article>
+
+        <article class="card">
+          <header><h3><a href="https://github.com/dexmac221/progressive-cognitive">progressive-cognitive</a></h3><span class="lang">Python</span></header>
+          <p>Can a small LLM move from brute-force memorization to intuition and tool delegation? A proof of concept on Qwen2.5 with LoRA and structured pruning.</p>
+          <p class="tags">LoRA · pruning · <a href="https://huggingface.co/dexmac">10 adapters on HF</a></p>
+        </article>
+      </div>
+
+      <h3 class="sub">More</h3>
+      <ul class="more">
+        <li><a href="https://github.com/dexmac221/AgentsTeam">AgentsTeam</a> <span>AI command line that scaffolds whole projects and fixes its own errors, local-first with Ollama.</span></li>
+        <li><a href="https://github.com/dexmac221/AiSociety">AiSociety</a> <span>Hybrid router between local and cloud models, with memory and FAISS.</span></li>
+        <li><a href="https://github.com/dexmac221/RobotSim2">RobotSim2</a> <span>Robot simulator with inverse kinematics and Gemini Robotics support.</span></li>
+        <li><a href="https://github.com/dexmac221/c64dnn">c64dnn</a> <span>A deep neural network that runs on the Commodore 64.</span></li>
+        <li><a href="https://github.com/dexmac221/snake">snake</a> <span>Another Commodore 64 Snake game.</span></li>
+      </ul>
+    </section>
+
+    <section id="writing">
+      <h2><span class="num">02</span> Writing</h2>
+
+      <h3 class="sub">Papers</h3>
+      <ul class="entries">
+        <li>
+          <span class="date">Oct 2026</span>
+          <div>
+            <a href="https://arxiv.org/abs/2610.09683">System Switch: When Should a Fast Decision Model Stop and Think?</a>
+            <p>arXiv:2610.09683 · cs.AI</p>
+          </div>
+        </li>
+      </ul>
+
+      <h3 class="sub">Articles</h3>
+      <ul class="entries">
+        <!-- ARTICLES:START -->
+        <li>
+          <span class="date">Nov 2026</span>
+          <div>
+            <a href="https://pub.towardsai.net/claude-fable-5-2-v-s-the-commodore-64-a-turrican-class-level-game-in-two-hours-aad14654ed38">Claude Fable 5.2 v.s. the Commodore 64: A Turrican-Class Level Game in Two Hours</a>
+            <p class="desc">The day after its release, Anthropic’s newest model built an eight-way scrolling C64 platformer in about two hours, drawing every pixel from scratch. The 1982 machine still landed one punch: a bug only a human eye could see.</p>
+            <p>Towards AI</p>
+          </div>
+        </li>
+        <li>
+          <span class="date">Nov 2026</span>
+          <div>
+            <a href="https://pub.towardsai.net/two-home-pcs-one-125b-model-splitting-stratas-layers-over-gigabit-ethernet-5fe7eadbb751">Two Home PCs, One 125B Model: Splitting Strata’s Layers Over Gigabit Ethernet</a>
+            <p class="desc">A second PC on a plain network cable made a 4-bit model that did not fit in RAM 87% faster at the same quality. Long prompts got slower, and where one PC was already enough, the second added only power draw.</p>
+            <p>Towards AI</p>
+          </div>
+        </li>
+        <li>
+          <span class="date">Oct 2026</span>
+          <div>
+            <a href="https://pub.towardsai.net/ddr5-costs-five-times-more-my-2013-workstation-runs-a-125b-model-anyway-3e78d3cfe24f">DDR5 Costs Five Times More. My 2013 Workstation Runs a 125B Model Anyway.</a>
+            <p class="desc">38 to 48 tokens per second from a Xeon without AVX2 and two 2017 GPUs, and what three home PCs taught me about where local LLM speed really comes from.</p>
+            <p>Towards AI</p>
+          </div>
+        </li>
+        <li>
+          <span class="date">Oct 2026</span>
+          <div>
+            <a href="https://pub.towardsai.net/when-should-a-fast-ai-stop-and-think-56e202a0afdd">When Should a Fast AI Stop and Think?</a>
+            <p>Towards AI</p>
+          </div>
+        </li>
+        <li>
+          <span class="date">Sep 2026</span>
+          <div>
+            <a href="https://pub.towardsai.net/laya-vs-gemma-who-wins-the-doom-game-18d3b30f303b">Laya vs Gemma: Who Wins the Doom Game?</a>
+            <p class="desc">A “System One” decision model and a small general-purpose LLM, trained on the same 979 examples, play the same Doom levels on the same GPU. The answer is less exciting than the launch posts, and more useful.</p>
+            <p>Towards AI</p>
+          </div>
+        </li>
+        <li>
+          <span class="date">Sep 2026</span>
+          <div>
+            <a href="https://pub.towardsai.net/openai-says-astra-saturates-the-benchmarks-i-gave-it-19-656-cycles-instead-f8c770051759">OpenAI Says Astra Saturates the Benchmarks. I Gave It 19,656 Cycles Instead.</a>
+            <p class="desc">Codex vs. the Commodore 64: a benchmark nobody funded, on a machine nobody can game — and what a 1 MHz CPU says about an agent that a leaderboard cannot.</p>
+            <p>Towards AI</p>
+          </div>
+        </li>
+        <li>
+          <span class="date">Sep 2026</span>
+          <div>
+            <a href="https://pub.towardsai.net/claude-fable-5-1-just-shipped-i-made-it-scroll-a-commodore-64-in-eight-directions-at-50-fps-5d2bbf07f8c3">Claude Fable 5.1 Just Shipped. I Made It Scroll a Commodore 64 in Eight Directions at 50 fps.</a>
+            <p class="desc">Rung seven of the ladder, measured on release week: banded colour RAM, a raster HUD split and a dozen multiplexed sprites on a 1 MHz CPU — built by an agent that measured before it drew.</p>
+            <p>Towards AI</p>
+          </div>
+        </li>
+        <li>
+          <span class="date">Aug 2026</span>
+          <div>
+            <a href="https://pub.towardsai.net/dumpster-inference-d7c5c8e0ec74">Dumpster Inference</a>
+            <p class="desc">Hardware is declared obsolete against a general-purpose yardstick. Inference is not general purpose. Pick one task, and parts written off years ago come back with most of their value intact — for a third of the money.</p>
+            <p>Towards AI</p>
+          </div>
+        </li>
+        <li>
+          <span class="date">Aug 2026</span>
+          <div>
+            <a href="https://pub.towardsai.net/qwen3-8-27b-on-two-mid-range-gpus-measured-on-release-day-e0b8e62d4aa0">Qwen3.8–27B on Two Mid-Range GPUs, Measured on Release Day</a>
+            <p class="desc">Everyone will publish the benchmark scores. Here is a less glamorous and more useful question: what does it actually cost to run on a home machine — and why that number is not up for negotiation.</p>
+            <p>Towards AI</p>
+          </div>
+        </li>
+        <li>
+          <span class="date">Aug 2026</span>
+          <div>
+            <a href="https://pub.towardsai.net/muse-glimmer-30b-on-a-mid-range-home-build-2fee8fc9730c">Muse Glimmer 30B on a Mid-Range Home Build</a>
+            <p>Towards AI</p>
+          </div>
+        </li>
+        <!-- ARTICLES:END -->
+      </ul>
+      <p class="all"><a href="https://medium.com/@gianlucabailo">All articles on Medium →</a></p>
+    </section>
+
+    <section id="photography">
+      <h2><span class="num">03</span> Photography</h2>
+      <p class="intro">My most downloaded photos on Pixabay: sea, sky and storms in natural light. Click a photo to see it large. More on <a href="https://www.instagram.com/dexmac221/">Instagram</a> and <a href="https://pixabay.com/users/dexmac-12233086/">Pixabay</a>, free to use.</p>
+      <div class="gallery">
+        <figure><img src="photos/sea-4166255-s.webp" data-full="photos/sea-4166255.webp" width="800" height="533" loading="lazy" decoding="async" alt="Camogli's church and castle above the sea in warm evening light"><figcaption>Camogli, Ligurian coast</figcaption></figure>
+        <figure><img src="photos/sea-4242303-s.webp" data-full="photos/sea-4242303.webp" width="800" height="533" loading="lazy" decoding="async" alt="A wave breaking white over dark layered rocks"><figcaption>Waves on the rocks</figcaption></figure>
+        <figure><img src="photos/thunderstorm-4375844-s.webp" data-full="photos/thunderstorm-4375844.webp" width="800" height="533" loading="lazy" decoding="async" alt="A dark storm front over the open sea, a ship on the horizon"><figcaption>Storm front over the sea</figcaption></figure>
+        <figure><img src="photos/clouds-7584944-s.webp" data-full="photos/clouds-7584944.webp" width="800" height="533" loading="lazy" decoding="async" alt="Towering cumulus clouds against a deep blue sky"><figcaption>Towering cumulus</figcaption></figure>
+        <figure><img src="photos/lake-4166269-s.webp" data-full="photos/lake-4166269.webp" width="800" height="533" loading="lazy" decoding="async" alt="A lone tree on a small island in Lake Molveno, turquoise water under wooded mountains"><figcaption>Lake Molveno, Trentino</figcaption></figure>
+        <figure><img src="photos/flower-7242158-s.webp" data-full="photos/flower-7242158.webp" width="800" height="533" loading="lazy" decoding="async" alt="Close-up of an orange daylily covered in raindrops on a black background"><figcaption>Daylily after the rain</figcaption></figure>
+        <figure><img src="photos/clouds-5368435-s.webp" data-full="photos/clouds-5368435.webp" width="800" height="534" loading="lazy" decoding="async" alt="A bright white cloud against a dark grey-blue sky"><figcaption>Cloud against a dark sky</figcaption></figure>
+        <figure><img src="photos/cat-4218424-s.webp" data-full="photos/cat-4218424.webp" width="800" height="502" loading="lazy" decoding="async" alt="A ginger cat caught mid-yawn"><figcaption>Mid-yawn</figcaption></figure>
+      </div>
+    </section>
+
+    <section id="links">
+      <h2><span class="num">04</span> Links</h2>
+      <ul class="linklist">
+        <li><span>Medium</span><a href="https://medium.com/@gianlucabailo">@gianlucabailo</a></li>
+        <li><span>GitHub</span><a href="https://github.com/dexmac221">dexmac221</a></li>
+        <li><span>LinkedIn</span><a href="https://www.linkedin.com/in/gianluca-b-59130b169/">gianluca-b</a></li>
+        <li><span>Bluesky</span><a href="https://bsky.app/profile/dexmac.bsky.social">@dexmac.bsky.social</a></li>
+        <li><span>X</span><a href="https://x.com/dexmac221">@dexmac221</a></li>
+        <li><span>Instagram</span><a href="https://www.instagram.com/dexmac221/">@dexmac221</a></li>
+        <li><span>Pixabay</span><a href="https://pixabay.com/users/dexmac-12233086/">dexmac</a></li>
+        <li><span>Hugging Face</span><a href="https://huggingface.co/dexmac">dexmac</a></li>
+        <li><span>arXiv</span><a href="https://arxiv.org/abs/2610.09683">2610.09683</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Gian Luca Bailo · hosted on GitHub Pages · no cookies</p>
+  </footer>
+
+  <div class="lightbox" hidden><img alt=""><p></p></div>
+  <script src="script.js"></script>
+</body>
+</html>

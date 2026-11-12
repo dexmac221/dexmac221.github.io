@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Claude Fable 5.2 v.s. the Commodore 64: A Turrican-Class Level Game in Two Hours",
+    "link": "https://pub.towardsai.net/claude-fable-5-2-v-s-the-commodore-64-a-turrican-class-level-game-in-two-hours-aad14654ed38",
+    "date": "2026-11-11",
+    "subtitle": "The day after its release, Anthropic’s newest model built an eight-way scrolling C64 platformer in about two hours, drawing every pixel from scratch. The 1982 machine still landed one punch: a bug only a human eye could see."
+  },
+  {
+    "title": "Two Home PCs, One 125B Model: Splitting Strata’s Layers Over Gigabit Ethernet",
+    "link": "https://pub.towardsai.net/two-home-pcs-one-125b-model-splitting-stratas-layers-over-gigabit-ethernet-5fe7eadbb751",
+    "date": "2026-11-02",
+    "subtitle": "A second PC on a plain network cable made a 4-bit model that did not fit in RAM 87% faster at the same quality. Long prompts got slower, and where one PC was already enough, the second added only power draw."
+  },
+  {
+    "title": "DDR5 Costs Five Times More. My 2013 Workstation Runs a 125B Model Anyway.",
+    "link": "https://pub.towardsai.net/ddr5-costs-five-times-more-my-2013-workstation-runs-a-125b-model-anyway-3e78d3cfe24f",
+    "date": "2026-10-26",
+    "subtitle": "38 to 48 tokens per second from a Xeon without AVX2 and two 2017 GPUs, and what three home PCs taught me about where local LLM speed really comes from."
+  },
+  {
+    "title": "When Should a Fast AI Stop and Think?",
+    "link": "https://pub.towardsai.net/when-should-a-fast-ai-stop-and-think-56e202a0afdd",
+    "date": "2026-10-08",
+    "subtitle": ""
+  },
+  {
+    "title": "Laya vs Gemma: Who Wins the Doom Game?",
+    "link": "https://pub.towardsai.net/laya-vs-gemma-who-wins-the-doom-game-18d3b30f303b",
+    "date": "2026-09-26",
+    "subtitle": "A “System One” decision model and a small general-purpose LLM, trained on the same 979 examples, play the same Doom levels on the same GPU. The answer is less exciting than the launch posts, and more useful."
+  },
+  {
+    "title": "OpenAI Says Astra Saturates the Benchmarks. I Gave It 19,656 Cycles Instead.",
+    "link": "https://pub.towardsai.net/openai-says-astra-saturates-the-benchmarks-i-gave-it-19-656-cycles-instead-f8c770051759",
+    "date": "2026-09-08",
+    "subtitle": "Codex vs. the Commodore 64: a benchmark nobody funded, on a machine nobody can game — and what a 1 MHz CPU says about an agent that a leaderboard cannot."
+  },
+  {
+    "title": "Claude Fable 5.1 Just Shipped. I Made It Scroll a Commodore 64 in Eight Directions at 50 fps.",
+    "link": "https://pub.towardsai.net/claude-fable-5-1-just-shipped-i-made-it-scroll-a-commodore-64-in-eight-directions-at-50-fps-5d2bbf07f8c3",
+    "date": "2026-09-04",
+    "subtitle": "Rung seven of the ladder, measured on release week: banded colour RAM, a raster HUD split and a dozen multiplexed sprites on a 1 MHz CPU — built by an agent that measured before it drew."
+  },
+  {
+    "title": "Dumpster Inference",
+    "link": "https://pub.towardsai.net/dumpster-inference-d7c5c8e0ec74",
+    "date": "2026-08-24",
+    "subtitle": "Hardware is declared obsolete against a general-purpose yardstick. Inference is not general purpose. Pick one task, and parts written off years ago come back with most of their value intact — for a third of the money."
+  },
+  {
+    "title": "Qwen3.8–27B on Two Mid-Range GPUs, Measured on Release Day",
+    "link": "https://pub.towardsai.net/qwen3-8-27b-on-two-mid-range-gpus-measured-on-release-day-e0b8e62d4aa0",
+    "date": "2026-08-15",
+    "subtitle": "Everyone will publish the benchmark scores. Here is a less glamorous and more useful question: what does it actually cost to run on a home machine — and why that number is not up for negotiation."
+  },
+  {
+    "title": "Muse Glimmer 30B on a Mid-Range Home Build",
+    "link": "https://pub.towardsai.net/muse-glimmer-30b-on-a-mid-range-home-build-2fee8fc9730c",
+    "date": "2026-08-12",
+    "subtitle": ""
+  }
+]
