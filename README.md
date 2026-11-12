@@ -1,6 +1,7 @@
 # dexmac221.github.io
 
 Personal site of Gian Luca Bailo: projects, papers, articles and photography.
+Served at https://www.dexmac.com (custom domain set in the Pages settings; with Actions publishing no CNAME file is needed).
 Plain HTML and CSS, no build step.
 
 - `index.html`, `style.css`, `script.js`: the page.
