@@ -114,6 +114,7 @@ h1 { font-size: clamp(40px, 7vw, 64px); line-height: 1.05; margin: 0 0 22px; let
 .entries .date { font: 13px var(--mono); color: var(--ink-3); padding-top: 3px; }
 .entries a { color: var(--ink); font-weight: 500; font-size: 17.5px; }
 .entries a:hover { color: var(--accent); }
+.entries .title { color: var(--ink); font-weight: 500; font-size: 17.5px; }
 .entries p { margin: 2px 0 0; color: var(--ink-3); font-size: 14.5px; }
 .entries p.desc { color: var(--ink-2); font-size: 15.5px; margin: 4px 0 4px; max-width: 720px; }
 .all { margin: 18px 0 0; font-size: 15.5px; }
