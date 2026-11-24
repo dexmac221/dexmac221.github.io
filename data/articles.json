@@ -1,5 +1,11 @@
 [
   {
+    "title": "AltiVec Had Intel’s Neural-Network Instruction 20 Years Early.",
+    "link": "https://pub.towardsai.net/altivec-had-intels-neural-network-instruction-20-years-early-5bca9f93691a",
+    "date": "2026-11-23",
+    "subtitle": "llama2.c on MorphOS and Mac OS X Leopard: from 1.9 to 13.7 tokens per second on one 1.8 GHz PowerPC 970 core, 18.2 on two, and why memory bandwidth sets the limit."
+  },
+  {
     "title": "A 2014 Xeon vs Two Mac Studios on a 125B Model: Who Wins?",
     "link": "https://pub.towardsai.net/a-2014-xeon-vs-two-mac-studios-on-a-125b-model-who-wins-74aabdfa603a",
     "date": "2026-11-15",
